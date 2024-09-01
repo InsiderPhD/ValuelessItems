@@ -19,6 +19,7 @@
                                                                              |
 -----------------------------------------------------------------------------+
 ```
+
 Fork of https://github.com/wschneider/ValuelessItems
 
 Hello this is a fork of popular Neopets extension ValuelessItems to update it to 2024

@@ -8,7 +8,7 @@
 
   "content_scripts": [
     {
-      "matches": ["http://www.neopets.com/quickstock.phtml*"],
+      "matches": ["https://www.neopets.com/quickstock.phtml*"],
       "js": ["highlight.js"]
     }
   ]

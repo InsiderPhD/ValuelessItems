@@ -8,6 +8,10 @@ Purpose:
     all of the items in 'itemsheet.csv', and generates a .js
     file that will be used in the Chrome extension. 
 """
+with open('itemsheet.csv', 'r') as fin:
+    data = fin.read().splitlines(True)
+with open('itemsheet.csv', 'w') as fout:
+    fout.writelines(data[1:])
 
 i = open("itemsheet.csv", "r")
 o = open("highlight.js", "w")
